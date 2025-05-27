@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\",
+  "WorkspaceRootPath": "D:\\Space-microgame\\Space-microgame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|c:\\users\\ushak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gay jem\\space-microgame\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|d:\\space-microgame\\space-microgame\\assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerControl.cs",
-              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\PlayerControl.cs",
+              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\PlayerControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
-              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\PlayerControl.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvyQAAAAhAAAAAAAAAA==",
+              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\PlayerControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T12:19:01.948Z",
               "EditorCaption": ""
