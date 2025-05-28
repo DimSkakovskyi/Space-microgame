@@ -10,7 +10,8 @@ public class StartMenuController : MonoBehaviour
     {
         SoundEffectManager.Play("Click");
         Time.timeScale = 1;
-        SceneManager.LoadScene("Generator");
+        MusicManager.instance.PauseBackgroundMusic();
+        SceneManager.LoadScene("GameEngine");
     }
 
     public void OnContinueClick()
