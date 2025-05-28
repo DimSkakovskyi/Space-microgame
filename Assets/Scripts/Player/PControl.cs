@@ -73,8 +73,8 @@ public class NewBehaviourScript : MonoBehaviour
         Vector3 min = Camera.main.ViewportToWorldPoint(new Vector3(0, 0)); // Get bottom left corner of the camera view
         Vector3 max = Camera.main.ViewportToWorldPoint(new Vector3(1, 1)); // Get top right corner of the camera view
         
-        max.x -= 1f; // Adjust min x to account for player width
-        min.x += 1f; // Adjust max x to account for player width
+        max.x -= 2f; // Adjust min x to account for player width
+        min.x += 2f; // Adjust max x to account for player width
 
         Vector3 pos = transform.position; // Get current position of the player
 
