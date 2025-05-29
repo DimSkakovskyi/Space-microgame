@@ -11,6 +11,8 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject MidGun;
     public GameObject RightGun;
 
+    public GameObject dead;
+
     public float fireRate = 5f;
     private float fireTimer = 0f;
     private int shotNumber = 1; // Counter for the number of shots fired
@@ -83,5 +85,23 @@ public class NewBehaviourScript : MonoBehaviour
         pos.x = Mathf.Clamp(pos.x, min.x, max.x); // Clamp x position within camera bounds
 
         transform.position = pos;
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if((col.tag == "EnemyShipTag")||(col.tag == "EnemyBulletTag"))
+        {
+            OnDestroy(); // Play explosion effect
+
+            Destroy(gameObject); // Destroy the player game object if it collides with an enemy ship or bullet
+        }
+    }
+
+    void OnDestroy()
+    {
+        GameObject death = (GameObject)Instantiate(dead);
+
+        death.transform.position = transform.position; // Set the position of the explosion to the player's position
+
     }
 }

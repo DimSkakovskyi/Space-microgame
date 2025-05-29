@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Space-microgame\\Space-microgame\\",
+  "WorkspaceRootPath": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|d:\\space-microgame\\space-microgame\\assets\\scripts\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|d:\\space-microgame\\space-microgame\\assets\\scripts\\sound\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sound\\soundeffectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\sound\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sound\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|d:\\space-microgame\\space-microgame\\assets\\scripts\\spawnerdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnerdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\enemy\\enemycontr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|c:\\users\\ushak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gay jem\\space-microgame\\assets\\scripts\\enemy\\enemycontr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemycontr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|c:\\users\\ushak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gay jem\\space-microgame\\assets\\scripts\\player\\pcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\pcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|c:\\users\\ushak\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gay jem\\space-microgame\\assets\\scripts\\enemy\\bolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\bolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,65 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SoundEffectManager.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Sound\\SoundEffectManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Sound\\SoundEffectManager.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Sound\\SoundEffectManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Sound\\SoundEffectManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "Title": "PControl.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Player\\PControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PControl.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Player\\PControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PControl.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T08:47:24.667Z",
+              "WhenOpened": "2025-05-29T12:33:07.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StartMenuController.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\StartMenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StartMenuController.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\StartMenuController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StartMenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Title": "EnemyContr.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T08:45:18.255Z",
+              "WhenOpened": "2025-05-29T12:32:27.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MusicManager.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Sound\\MusicManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Sound\\MusicManager.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Sound\\MusicManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Sound\\MusicManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Title": "Bolt.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Enemy\\Bolt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Bolt.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Enemy\\Bolt.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Bolt.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T08:44:57.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnemyContr.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:17:26.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SpawnerDo.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\SpawnerDo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnerDo.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\SpawnerDo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnerDo.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:23:22.128Z",
+              "WhenOpened": "2025-05-29T12:31:55.761Z",
               "EditorCaption": ""
             }
           ]

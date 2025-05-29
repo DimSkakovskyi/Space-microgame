@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class EnemyContr : MonoBehaviour
 {
+    public GameObject ScoutDeath; 
+
     float speed; // Speed of the enemy movement
 
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = 5f; // Set the speed of the enemy
+        speed = 2f; // Set the speed of the enemy
     }
 
     // Update is called once per frame
@@ -28,5 +30,20 @@ public class EnemyContr : MonoBehaviour
         {
             Destroy(gameObject); // Destroy the enemy if it goes out of bounds
         }
+    }
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if ((col.tag == "PlayerShipTag") || (col.tag == "PlayerBulletTag"))
+        {
+            PlayDeath();
+            Destroy(gameObject);
+        }
+    }
+
+    void PlayDeath()
+    {
+        GameObject death = (GameObject)Instantiate(ScoutDeath);
+
+        death.transform.position = transform.position; // Set the position of the explosion effect to the enemy's position
     }
 }

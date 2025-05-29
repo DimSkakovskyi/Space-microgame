@@ -28,4 +28,12 @@ public class PBulletContr : MonoBehaviour
             Destroy(gameObject); // Destroy the bullet if it is out of view
         }
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "EnemyShipTag") // Check if the bullet collides with an enemy ship or bullet
+        {
+            Destroy(gameObject); // Destroy the bullet
+        }
+    }
 }
