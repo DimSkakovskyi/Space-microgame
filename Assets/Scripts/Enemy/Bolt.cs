@@ -8,6 +8,8 @@ public class Bolt : MonoBehaviour
     Vector2 _direction;
     bool isReady;
 
+    public int damage = 1;
+
     void Awake()
     {
         speed = 5f; // Set the speed of the bolt

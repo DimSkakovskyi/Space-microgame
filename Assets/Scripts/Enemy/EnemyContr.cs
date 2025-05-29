@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class EnemyContr : MonoBehaviour
 {
-    public GameObject ScoutDeath; 
+    public GameObject ScoutDeath;
+
+    public int damage = 1;
 
     float speed; // Speed of the enemy movement
 
