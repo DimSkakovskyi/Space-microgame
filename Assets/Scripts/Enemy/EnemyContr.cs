@@ -10,6 +10,10 @@ public class EnemyContr : MonoBehaviour
 
     float speed; // Speed of the enemy movement
 
+    //Loot Table
+    [Header("Loot")]
+    public List<LootItem> lootTable = new List<LootItem>();
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +42,26 @@ public class EnemyContr : MonoBehaviour
         if ((col.tag == "PlayerShipTag") || (col.tag == "PlayerBulletTag"))
         {
             PlayDeath();
+
+            //Go around loot table and spawn item
+            foreach(LootItem lootItem in lootTable)
+            {
+                if (Random.Range(0f, 100f) <= lootItem.dropChance)
+                {
+                    InstantiateLoot(lootItem.itemPrefab);
+                    break;
+                }
+            }
+
             Destroy(gameObject);
+        }
+    }
+
+    void InstantiateLoot(GameObject loot)
+    {
+        if(loot)
+        {
+            GameObject droppedLoot = Instantiate(loot, transform.position, Quaternion.identity);
         }
     }
 

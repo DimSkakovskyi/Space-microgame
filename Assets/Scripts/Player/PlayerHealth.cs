@@ -20,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
         healthUI.SetMaxHearts(maxHealth);
 
         spriteRenderer = GetComponent<SpriteRenderer>();
+        HealthItem.OnHealthCollect += Heal;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,6 +30,17 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(bolt.damage);
         }
+    }
+
+    void Heal(int amount)
+    {
+        currentHealth += amount;
+        if(currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
+        healthUI.UpdatedHearts(currentHealth);
     }
 
     private void TakeDamage(int damage)
@@ -42,10 +54,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth == 0)
         {
             //player dead
-            OnDestroy();
-
-            Destroy(gameObject); 
-            
+            OnDestroy();            
         }
     }
 
@@ -62,6 +71,7 @@ public class PlayerHealth : MonoBehaviour
 
         death.transform.position = transform.position; // Set the position of the explosion to the player's position
 
+        Destroy(gameObject);
     }
 
 }
