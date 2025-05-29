@@ -30,7 +30,14 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(bolt.damage);
         }
+
+        IItem item = collision.GetComponent<IItem>();
+        if (item != null)
+        {
+            item.Collect();
+        }
     }
+
 
     void Heal(int amount)
     {
@@ -54,7 +61,7 @@ public class PlayerHealth : MonoBehaviour
         if(currentHealth == 0)
         {
             //player dead
-            OnDestroy();            
+            Die();            
         }
     }
 
@@ -65,7 +72,7 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer.color = Color.white;
     }
 
-    void OnDestroy()
+    void Die()
     {
         GameObject death = (GameObject)Instantiate(dead);
 
@@ -74,4 +81,8 @@ public class PlayerHealth : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void OnDestroy()
+    {
+        HealthItem.OnHealthCollect -= Heal; // prevent memory leaks
+    }
 }
