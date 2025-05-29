@@ -6,37 +6,30 @@ public class Planet : MonoBehaviour
 {
     public float speed;//the speed of the planet
     public bool isMoving;//flag to make the planet scroll down the screen
+    public float minY;
 
     Vector2 min;//bottom-left
     Vector2 max;//top-right
+
+    private Vector2 startPosition;
 
     private void Awake()
     {
         isMoving = false;
 
-        //This is the bottom-left point of the screen
-        min = Camera.main.ViewportToWorldPoint(new Vector2(0, 0));
-
-        //This is the top-right point of the screen
-        max = Camera.main.ViewportToWorldPoint(new Vector2(1, 1));
-
-        //add the planet sprite half height to max y
-        max.y = max.y + GetComponent<SpriteRenderer>().sprite.bounds.extents.y;
-
-        //substracts the planet sprite half the height to min y
-        min.y = min.y - GetComponent<SpriteRenderer>().sprite.bounds.extents.y;
+        startPosition = transform.position;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!isMoving)
+        if (!isMoving)
         {
             return;
         }
@@ -51,7 +44,7 @@ public class Planet : MonoBehaviour
         transform.position = position;
 
         //if the planet gets to the minimum y position. then stop moving the planet
-        if(transform.position.y < min.y)
+        if (transform.position.y < minY)
         {
             isMoving = false;
         }
@@ -59,6 +52,6 @@ public class Planet : MonoBehaviour
 
     public void ResetPosition()
     {
-        //transform.position = new Vector2 (Random.Range ())
+        transform.position = startPosition;
     }
 }
