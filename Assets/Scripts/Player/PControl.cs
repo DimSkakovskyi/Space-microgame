@@ -13,6 +13,9 @@ public class NewBehaviourScript : MonoBehaviour
 
     public GameObject dead;
 
+    public GameObject FastFireGun;
+    public float fastDuration;
+
     public float fireRate = 5f;
     private float fireTimer = 0f;
     private int shotNumber = 1; // Counter for the number of shots fired
@@ -22,10 +25,32 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Start()
     {
-        
+        FastFireGun.SetActive(false);
+        FastFire.OnFastFire += MakeFastFire;
     }
 
-    
+    public void MakeFastFire()
+    {
+        StartCoroutine(FastFireRoutine());
+    }
+
+    private IEnumerator FastFireRoutine()
+    {
+        fireRate *= 2;
+        FastFireGun.SetActive(true);
+        yield return new WaitForSeconds(fastDuration - 1);
+        for (double i = 0; i < 2; i += 0.4)
+        {
+            FastFireGun.GetComponent<SpriteRenderer>().enabled = false;
+            yield return new WaitForSeconds(0.2f);
+            FastFireGun.GetComponent<SpriteRenderer>().enabled = true;
+            yield return new WaitForSeconds(0.2f);
+        }
+        FastFireGun.SetActive(false);
+        fireRate /= 2;
+    }
+
+
     void Update()
     {
         if (Input.GetKey(KeyCode.Space)) // Check if the space key is pressed
@@ -38,12 +63,12 @@ public class NewBehaviourScript : MonoBehaviour
                 Shot(shotNumber); // Call the Shot method to fire bullets
                 SoundEffectManager.Play("Piu");
                 fireTimer = 0f; // Reset the fire timer
-                shotNumber+=1; // Increment the shot number
+                shotNumber += 1; // Increment the shot number
             }
         }
         else
         {
-            fireTimer = 1f/fireRate; // Reset the fire timer if space is not pressed
+            fireTimer = 1f / fireRate; // Reset the fire timer if space is not pressed
         }
 
 
@@ -60,20 +85,20 @@ public class NewBehaviourScript : MonoBehaviour
             GameObject bulletLeft = Instantiate(PBulletGo);
             bulletLeft.transform.position = LeftGun.transform.position;
         }
-        else 
+        else
         {
             GameObject bulletRight = Instantiate(PBulletGo);
             bulletRight.transform.position = RightGun.transform.position;
         }
 
-            
+
     }
 
     void Move(Vector3 direction)
     {
         Vector3 min = Camera.main.ViewportToWorldPoint(new Vector3(0, 0)); // Get bottom left corner of the camera view
         Vector3 max = Camera.main.ViewportToWorldPoint(new Vector3(1, 1)); // Get top right corner of the camera view
-        
+
         max.x -= 2f; // Adjust min x to account for player width
         min.x += 2f; // Adjust max x to account for player width
 
@@ -88,7 +113,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     public void Init()
     {
-        
+
     }
 
 }

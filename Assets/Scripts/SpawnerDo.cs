@@ -10,7 +10,7 @@ public class SpawnerDo : MonoBehaviour
     public float minSpawnRate = 0.2f; // Minimum spawn rate to prevent too fast spawning
     public float spawnMinX = -6.5f; // Minimum X position for spawning
     public float spawnMaxX = 6.5f;  // Maximum X position for spawning
-    public float spawnMaxY = 5f; // Maximum Y position for spawning (not used, but can be useful)
+    public float spawnMaxY; // Maximum Y position for spawning (not used, but can be useful)
 
     Vector2 camMin;
     Vector2 camMax;
@@ -33,7 +33,7 @@ public class SpawnerDo : MonoBehaviour
     void enemySpawn()
     {
         // Choose a random position along the top of the screen
-        Vector2 spawnPos = new Vector2(Random.Range(spawnMinX, spawnMaxX), camMax.y);
+        Vector2 spawnPos = new Vector2(Random.Range(spawnMinX, spawnMaxX), spawnMaxY);
 
         // Spawn the enemy with the original rotation
         Instantiate(Scout, spawnPos, Scout.transform.rotation);

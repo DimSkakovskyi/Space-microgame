@@ -12,10 +12,14 @@ public class EnemyContr : MonoBehaviour
     public int value = 100; // Value of the enemy for scoring
     public int damage = 1;
 
-    public int maxHealth = 5; // Maximum health of the enemy
+    public int maxHealth; // Maximum health of the enemy
+    private int halfHealth; 
     public int minY; // Minimum Y position for the enemy to be destroyed
 
     public float speed; // Speed of the enemy movement
+
+    public bool isCruise;
+    public GameObject shield;
 
     //Loot Table
     [Header("Loot")]
@@ -25,6 +29,7 @@ public class EnemyContr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        halfHealth = maxHealth / 2;
         spriteRenderer = GetComponent<SpriteRenderer>();
         
 
@@ -65,6 +70,11 @@ public class EnemyContr : MonoBehaviour
         {
             maxHealth -= 1; // Decrease the enemy's health by the damage amount
             StartCoroutine(FlashRed());
+
+            if(isCruise == true && maxHealth == halfHealth)
+            {
+                shield.GetComponent<SpriteRenderer>().enabled = false;
+            }
 
             if (maxHealth==0)
             {

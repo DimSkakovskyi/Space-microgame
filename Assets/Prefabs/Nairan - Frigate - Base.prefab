@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 1505838723524608157}
   - component: {fileID: 8193470902956961943}
   m_Layer: 0
-  m_Name: Nairan - Frigate - Shield_0
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -407,11 +407,15 @@ MonoBehaviour:
   Death: {fileID: 9041017188760546043, guid: 79698afb81344034e98d08482b6d2f8c, type: 3}
   value: 100
   damage: 1
-  maxHealth: 10
+  maxHealth: 30
   minY: -10
   speed: 1
+  isCruise: 1
+  shield: {fileID: 7960579163939017151}
   lootTable:
   - itemPrefab: {fileID: 8571814712520403943, guid: d4b6c3677a6ef8c409bf62748736788a, type: 3}
+    dropChance: 10
+  - itemPrefab: {fileID: 5750640874181596792, guid: 27cb016ebbe34284bbc31a5b8217a204, type: 3}
     dropChance: 10
   - itemPrefab: {fileID: 3395305893905816370, guid: 80545f894cef2aa46aed08724a06a724, type: 3}
     dropChance: 20
