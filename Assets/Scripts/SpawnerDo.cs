@@ -6,7 +6,8 @@ public class SpawnerDo : MonoBehaviour
 {
     public GameObject Scout; // The enemy prefab to spawn
 
-    float spawnRate = 1f; // Time interval between spawns
+    public float spawnRate = 1f; // Time interval between spawns
+    public float minSpawnRate = 0.2f; // Minimum spawn rate to prevent too fast spawning
     public float spawnMinX = -6.5f; // Minimum X position for spawning
     public float spawnMaxX = 6.5f;  // Maximum X position for spawning
 
@@ -43,7 +44,7 @@ public class SpawnerDo : MonoBehaviour
     void ScheduleNextEnemySpawn()
     {
         // Calculate a random delay based on current spawn rate
-        float delay = Mathf.Clamp(Random.Range(0.3f, spawnRate), 0.2f, 10f);
+        float delay = Mathf.Clamp(Random.Range(minSpawnRate, spawnRate), 0.1f, 30f);
         Debug.Log("Next spawn in: " + delay + " seconds. SpawnRate: " + spawnRate);
 
 

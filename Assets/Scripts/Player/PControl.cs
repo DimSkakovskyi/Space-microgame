@@ -20,7 +20,6 @@ public class NewBehaviourScript : MonoBehaviour
     public float speed; // Speed of the player
 
 
-
     void Start()
     {
         

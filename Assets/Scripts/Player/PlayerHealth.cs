@@ -31,6 +31,12 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(bolt.damage);
         }
 
+        EnemyContr enemy = collision.GetComponent<EnemyContr>();
+        if (enemy)
+        {
+            TakeDamage(enemy.damage);
+        }
+
         IItem item = collision.GetComponent<IItem>();
         if (item != null)
         {

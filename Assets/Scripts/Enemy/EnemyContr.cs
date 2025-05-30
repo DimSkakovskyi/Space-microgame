@@ -7,9 +7,12 @@ public class EnemyContr : MonoBehaviour
     GameObject scoreUITextGo;
 
     public GameObject ScoutDeath;
+    SpriteRenderer spriteRenderer;
 
+    public int value = 100; // Value of the enemy for scoring
     public int damage = 1;
 
+    public int maxHealth = 5; // Maximum health of the enemy
     public int minY; // Minimum Y position for the enemy to be destroyed
 
     float speed; // Speed of the enemy movement
@@ -22,6 +25,7 @@ public class EnemyContr : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         speed = 2f; // Set the speed of the enemy
 
         scoreUITextGo = GameObject.FindGameObjectWithTag("ScoreTextTag");
@@ -45,9 +49,12 @@ public class EnemyContr : MonoBehaviour
         {
             if (scoreUITextGo.GetComponent<GameScore>().Score > 0)
             {
-                scoreUITextGo.GetComponent<GameScore>().Score -= 100;
+                scoreUITextGo.GetComponent<GameScore>().Score -= value;
+                if (scoreUITextGo.GetComponent<GameScore>().Score < 0)
+                {
+                    scoreUITextGo.GetComponent<GameScore>().Score = 0; // Ensure score doesn't go negative
+                }
             }
-                
             Destroy(gameObject); // Destroy the enemy if it goes out of bounds
         }
 
@@ -56,21 +63,28 @@ public class EnemyContr : MonoBehaviour
     {
         if ((col.tag == "PlayerShipTag") || (col.tag == "PlayerBulletTag"))
         {
-            PlayDeath();
+            maxHealth -= 1; // Decrease the enemy's health by the damage amount
+            StartCoroutine(FlashRed());
 
-            scoreUITextGo.GetComponent<GameScore>().Score += 100; // Increase the score by 100 points
-
-            //Go around loot table and spawn item
-            foreach (LootItem lootItem in lootTable)
+            if (maxHealth==0)
             {
-                if (Random.Range(0f, 100f) <= lootItem.dropChance)
-                {
-                    InstantiateLoot(lootItem.itemPrefab);
-                    break;
-                }
-            }
+                PlayDeath();
 
-            Destroy(gameObject);
+                scoreUITextGo.GetComponent<GameScore>().Score += value; // Increase the score by 100 points
+
+                //Go around loot table and spawn item
+                foreach (LootItem lootItem in lootTable)
+                {
+                    if (Random.Range(0f, 100f) <= lootItem.dropChance)
+                    {
+                        InstantiateLoot(lootItem.itemPrefab);
+                        break;
+                    }
+                }
+
+                Destroy(gameObject);
+            }
+            
         }
     }
 
@@ -87,5 +101,12 @@ public class EnemyContr : MonoBehaviour
         GameObject death = (GameObject)Instantiate(ScoutDeath);
 
         death.transform.position = transform.position; // Set the position of the explosion effect to the enemy's position
+    }
+
+    private IEnumerator FlashRed()
+    {
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = Color.white;
     }
 }
