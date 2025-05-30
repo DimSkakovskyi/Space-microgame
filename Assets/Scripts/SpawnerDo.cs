@@ -10,6 +10,7 @@ public class SpawnerDo : MonoBehaviour
     public float minSpawnRate = 0.2f; // Minimum spawn rate to prevent too fast spawning
     public float spawnMinX = -6.5f; // Minimum X position for spawning
     public float spawnMaxX = 6.5f;  // Maximum X position for spawning
+    public float spawnMaxY = 5f; // Maximum Y position for spawning (not used, but can be useful)
 
     Vector2 camMin;
     Vector2 camMax;
@@ -20,7 +21,7 @@ public class SpawnerDo : MonoBehaviour
         // Cache camera reference and boundaries
         mainCam = Camera.main;
         camMin = mainCam.ViewportToWorldPoint(new Vector2(0, 0));
-        camMax = mainCam.ViewportToWorldPoint(new Vector2(1, 1));
+        camMax = mainCam.ViewportToWorldPoint(new Vector2(1, 1)); 
 
         // Start spawning enemies
         ScheduleNextEnemySpawn();

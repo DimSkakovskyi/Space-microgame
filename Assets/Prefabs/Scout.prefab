@@ -102,11 +102,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41da219e88fd8d8468da77a6f67d5ab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoutDeath: {fileID: 6608037403474075949, guid: 6bebeea4d95b3b645b6f47da24e86264, type: 3}
+  Death: {fileID: 6608037403474075949, guid: 6bebeea4d95b3b645b6f47da24e86264, type: 3}
   value: 100
   damage: 1
   maxHealth: 2
   minY: -6
+  speed: 2
   lootTable:
   - itemPrefab: {fileID: 8571814712520403943, guid: d4b6c3677a6ef8c409bf62748736788a, type: 3}
     dropChance: 15

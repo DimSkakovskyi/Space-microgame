@@ -1,45 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Space-microgame\\Space-microgame\\",
+  "WorkspaceRootPath": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|d:\\space-microgame\\space-microgame\\assets\\scripts\\player\\pcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\pcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\enemy\\enemycontr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\assets\\scripts\\enemy\\enemycontr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemycontr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\enemy\\bolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\bolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Space-microgame\\UI\\StartMenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\gamescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\timecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|D:\\Space-microgame\\Space-microgame\\assets\\scripts\\spawnerdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\assets\\scripts\\spawnerdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnerdo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\assets\\scripts\\player\\pcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\pcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\assets\\scripts\\gamescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A68EF6-5C6C-6FEB-1276-85B75323859A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,126 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Shield.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Shield.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Shield.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Shield.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Shield.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Title": "SpawnerDo.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\SpawnerDo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnerDo.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\SpawnerDo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnerDo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:47:11.047Z",
+              "WhenOpened": "2025-05-30T13:35:40.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bolt.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Enemy\\Bolt.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Bolt.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Enemy\\Bolt.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Bolt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABGAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowGoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:23:39.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StartMenuController.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\UI\\StartMenuController.cs",
-              "RelativeDocumentMoniker": "..\\UI\\StartMenuController.cs",
-              "ToolTip": "D:\\Space-microgame\\UI\\StartMenuController.cs",
-              "RelativeToolTip": "..\\UI\\StartMenuController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T16:11:22.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:13:39.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TimeCounter.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\TimeCounter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TimeCounter.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\TimeCounter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TimeCounter.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T15:01:35.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SpawnerDo.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\SpawnerDo.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnerDo.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\SpawnerDo.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnerDo.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:35:40.919Z"
+              "WhenOpened": "2025-05-30T13:27:24.424Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowGoAAAAyAAAAAAAAAA==",
+              "Title": "EnemyContr.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:27:24.424Z",
+              "WhenOpened": "2025-05-30T10:24:32.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EnemyContr.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyContr.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAADwv1gAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T10:24:32.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PControl.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Player\\PControl.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Player\\PControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PControl.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\Player\\PControl.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\Player\\PControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PControl.cs",
               "ViewState": "AgIAADIAAAAAAAAAAIAwwEAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:14:40.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T13:14:40.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "GameScore.cs",
-              "DocumentMoniker": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\GameScore.cs",
+              "DocumentMoniker": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\GameScore.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScore.cs",
-              "ToolTip": "D:\\Space-microgame\\Space-microgame\\Assets\\Scripts\\GameScore.cs",
+              "ToolTip": "C:\\Users\\ushak\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Gay Jem\\Space-microgame\\Assets\\Scripts\\GameScore.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScore.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

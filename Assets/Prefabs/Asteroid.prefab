@@ -4929,11 +4929,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41da219e88fd8d8468da77a6f67d5ab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoutDeath: {fileID: 5801276329852191125, guid: defdcbdc987fb734ebba4f76a4bb33fc, type: 3}
+  Death: {fileID: 5801276329852191125, guid: defdcbdc987fb734ebba4f76a4bb33fc, type: 3}
   value: 10
   damage: 1
   maxHealth: 5
   minY: -6
+  speed: 3
   lootTable:
   - itemPrefab: {fileID: 3395305893905816370, guid: 80545f894cef2aa46aed08724a06a724, type: 3}
     dropChance: 0

@@ -6,7 +6,7 @@ public class EnemyContr : MonoBehaviour
 {
     GameObject scoreUITextGo;
 
-    public GameObject ScoutDeath;
+    public GameObject Death;
     SpriteRenderer spriteRenderer;
 
     public int value = 100; // Value of the enemy for scoring
@@ -15,7 +15,7 @@ public class EnemyContr : MonoBehaviour
     public int maxHealth = 5; // Maximum health of the enemy
     public int minY; // Minimum Y position for the enemy to be destroyed
 
-    float speed; // Speed of the enemy movement
+    public float speed; // Speed of the enemy movement
 
     //Loot Table
     [Header("Loot")]
@@ -26,7 +26,7 @@ public class EnemyContr : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        speed = 2f; // Set the speed of the enemy
+        
 
         scoreUITextGo = GameObject.FindGameObjectWithTag("ScoreTextTag");
         if (scoreUITextGo == null)
@@ -106,7 +106,7 @@ public class EnemyContr : MonoBehaviour
 
     void PlayDeath()
     {
-        GameObject death = (GameObject)Instantiate(ScoutDeath);
+        GameObject death = (GameObject)Instantiate(Death);
 
         death.transform.position = transform.position; // Set the position of the explosion effect to the enemy's position
     }
