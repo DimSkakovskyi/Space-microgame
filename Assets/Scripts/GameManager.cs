@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject pauseScreen;
     [SerializeField] private GameObject options;
     [SerializeField] private GameObject startScreen;
+    [SerializeField] private GameObject TimeCounterGO;
 
     private void Awake()
     {
@@ -68,4 +69,7 @@ public class GameManager : MonoBehaviour
         gameOverScreen.SetActive(true);
         Time.timeScale = 0;
     }
+
+
+
 }
