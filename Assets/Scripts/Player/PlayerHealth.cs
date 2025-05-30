@@ -13,6 +13,11 @@ public class PlayerHealth : MonoBehaviour
 
     public GameObject dead;
 
+    [SerializeField] private GameObject shield;
+    public float shieldDuration;
+
+    [SerializeField] private GameScore gameScore;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,21 +26,29 @@ public class PlayerHealth : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         HealthItem.OnHealthCollect += Heal;
+
+        Shield.OnShieldActivate += ActivateShield;
+
+        shield.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Bolt bolt = collision.GetComponent<Bolt>();
-        if(bolt)
+        if (gameObject.tag != "PlayerWithShield")
         {
-            TakeDamage(bolt.damage);
-        }
+            Bolt bolt = collision.GetComponent<Bolt>();
+            if (bolt)
+            {
+                TakeDamage(bolt.damage);
+            }
 
-        EnemyContr enemy = collision.GetComponent<EnemyContr>();
-        if (enemy)
-        {
-            TakeDamage(enemy.damage);
+            EnemyContr enemy = collision.GetComponent<EnemyContr>();
+            if (enemy)
+            {
+                TakeDamage(enemy.damage);
+            }
         }
+        
 
         IItem item = collision.GetComponent<IItem>();
         if (item != null)
@@ -48,7 +61,7 @@ public class PlayerHealth : MonoBehaviour
     void Heal(int amount)
     {
         currentHealth += amount;
-        if(currentHealth > maxHealth)
+        if (currentHealth > maxHealth)
         {
             currentHealth = maxHealth;
         }
@@ -64,10 +77,10 @@ public class PlayerHealth : MonoBehaviour
         //Flash
         StartCoroutine(FlashRed());
 
-        if(currentHealth == 0)
+        if (currentHealth == 0)
         {
             //player dead
-            Die();            
+            Die();
         }
     }
 
@@ -78,11 +91,29 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer.color = Color.white;
     }
 
+    public void ActivateShield()
+    {
+        StartCoroutine(ShieldRoutine());
+    }
+
+    private IEnumerator ShieldRoutine()
+    {
+        gameObject.tag = "PlayerWithShield";
+        shield.SetActive(true);
+        yield return new WaitForSeconds(shieldDuration);
+        shield.SetActive(false);
+        gameObject.tag = "PlayerShipTag";
+    }
+
     void Die()
     {
         GameObject death = (GameObject)Instantiate(dead);
 
         death.transform.position = transform.position; // Set the position of the explosion to the player's position
+
+        gameScore.isDead = true;
+
+        GameManager.Instance.ShowGameOver();
 
         Destroy(gameObject);
     }

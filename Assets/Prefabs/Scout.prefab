@@ -108,8 +108,10 @@ MonoBehaviour:
   maxHealth: 2
   minY: -6
   lootTable:
+  - itemPrefab: {fileID: 8571814712520403943, guid: d4b6c3677a6ef8c409bf62748736788a, type: 3}
+    dropChance: 15
   - itemPrefab: {fileID: 3395305893905816370, guid: 80545f894cef2aa46aed08724a06a724, type: 3}
-    dropChance: 5
+    dropChance: 30
 --- !u!61 &1053574049768113129
 BoxCollider2D:
   m_ObjectHideFlags: 0

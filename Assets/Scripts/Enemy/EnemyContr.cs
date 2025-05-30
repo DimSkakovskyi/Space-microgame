@@ -86,6 +86,14 @@ public class EnemyContr : MonoBehaviour
             }
             
         }
+        else if (col.tag == "PlayerWithShield")
+        {
+            PlayDeath();
+
+            scoreUITextGo.GetComponent<GameScore>().Score += value;
+
+            Destroy(gameObject);
+        }
     }
 
     void InstantiateLoot(GameObject loot)

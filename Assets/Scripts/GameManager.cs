@@ -67,7 +67,6 @@ public class GameManager : MonoBehaviour
     public void ShowGameOver()
     {
         gameOverScreen.SetActive(true);
-        Time.timeScale = 0;
     }
 
 

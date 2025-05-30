@@ -52,7 +52,7 @@ public class Bolt : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.tag == "PlayerShipTag") // Check if the bullet collides with an enemy ship or bullet
+        if (col.tag == "PlayerShipTag" || col.tag == "PlayerWithShield") // Check if the bullet collides with an enemy ship or bullet
         {
             Destroy(gameObject); // Destroy the bullet
         }
