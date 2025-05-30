@@ -87,21 +87,9 @@ public class NewBehaviourScript : MonoBehaviour
         transform.position = pos;
     }
 
-    //void OnTriggerEnter2D(Collider2D col)
-    //{
-    //    if((col.tag == "EnemyShipTag")||(col.tag == "EnemyBulletTag"))
-    //    {
-    //        OnDestroy(); // Play explosion effect
+    public void Init()
+    {
+        
+    }
 
-    //        Destroy(gameObject); // Destroy the player game object if it collides with an enemy ship or bullet
-    //    }
-    //}
-
-    //void OnDestroy()
-    //{
-    //    GameObject death = (GameObject)Instantiate(dead);
-
-    //    death.transform.position = transform.position; // Set the position of the explosion to the player's position
-
-    //}
 }

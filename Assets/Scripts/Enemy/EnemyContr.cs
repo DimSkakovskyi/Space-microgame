@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class EnemyContr : MonoBehaviour
 {
+    GameObject scoreUITextGo;
+
     public GameObject ScoutDeath;
 
     public int damage = 1;
+
+    public int minY; // Minimum Y position for the enemy to be destroyed
 
     float speed; // Speed of the enemy movement
 
@@ -19,6 +23,12 @@ public class EnemyContr : MonoBehaviour
     void Start()
     {
         speed = 2f; // Set the speed of the enemy
+
+        scoreUITextGo = GameObject.FindGameObjectWithTag("ScoreTextTag");
+        if (scoreUITextGo == null)
+        {
+            Debug.LogError("Score Text GameObject not found! Make sure it has the tag 'ScoreTextTag'.");
+        }
     }
 
     // Update is called once per frame
@@ -29,13 +39,18 @@ public class EnemyContr : MonoBehaviour
         position = new Vector2(position.x, position.y - speed * Time.deltaTime); // Move the enemy downwards
 
         transform.position = position; // Update the enemy's position
+        
 
-        Vector2 min = Camera.main.ViewportToWorldPoint(new Vector2(0, 0)); // Get the bottom-left corner of the camera view
-
-        if(position.y < min.y) // Check if the enemy has moved below the camera view
+        if(position.y < minY) // Check if the enemy has moved below the camera view
         {
+            if (scoreUITextGo.GetComponent<GameScore>().Score>0)
+            {
+                scoreUITextGo.GetComponent<GameScore>().Score -= 100;
+            }
+                
             Destroy(gameObject); // Destroy the enemy if it goes out of bounds
         }
+
     }
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -43,8 +58,10 @@ public class EnemyContr : MonoBehaviour
         {
             PlayDeath();
 
+            scoreUITextGo.GetComponent<GameScore>().Score += 100; // Increase the score by 100 points
+
             //Go around loot table and spawn item
-            foreach(LootItem lootItem in lootTable)
+            foreach (LootItem lootItem in lootTable)
             {
                 if (Random.Range(0f, 100f) <= lootItem.dropChance)
                 {

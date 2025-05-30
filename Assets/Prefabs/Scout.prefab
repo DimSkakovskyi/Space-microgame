@@ -104,9 +104,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoutDeath: {fileID: 6608037403474075949, guid: 6bebeea4d95b3b645b6f47da24e86264, type: 3}
   damage: 1
+  minY: -6
   lootTable:
   - itemPrefab: {fileID: 3395305893905816370, guid: 80545f894cef2aa46aed08724a06a724, type: 3}
-    dropChance: 99.7
+    dropChance: 10
 --- !u!61 &1053574049768113129
 BoxCollider2D:
   m_ObjectHideFlags: 0
