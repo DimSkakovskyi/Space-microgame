@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartMenuController : MonoBehaviour
 {
-    //[SerializeField] GameManager gameManager;
+    [SerializeField] GameManager gameManager;
     public void OnStartClick()
     {
         SoundEffectManager.Play("Click");
@@ -17,7 +17,38 @@ public class StartMenuController : MonoBehaviour
     public void OnContinueClick()
     {
         SoundEffectManager.Play("Click");
-        //gameManager.ResumeGame();
+        gameManager.ResumeGame();
+    }
+
+    public void OnOptionsClick()
+    {
+        SoundEffectManager.Play("Click");
+        gameManager.OpenOptions();
+    }
+
+    public void OnOptionsBack()
+    {
+        SoundEffectManager.Play("Click");
+        gameManager.CloseOptions();
+    }
+
+    public void OnOptionsStartClick()
+    {
+        SoundEffectManager.Play("Click");
+        gameManager.OpenOptionsStart();
+    }
+
+    public void OnOptionsStartClose()
+    {
+        SoundEffectManager.Play("Click");
+        gameManager.CloseOptionsStart();
+    }
+
+    public void OnMainMenuClick()
+    {
+        SoundEffectManager.Play("Click");
+        Time.timeScale = 1;
+        SceneManager.LoadScene("StartMenu");
     }
 
     public void OnExitClick()

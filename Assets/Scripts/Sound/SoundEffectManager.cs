@@ -10,6 +10,7 @@ public class SoundEffectManager : MonoBehaviour
     private static AudioSource audioSource;
     private static SoundEffectLibrary soundEffectLibrary;
     [SerializeField] private Slider sfxSlider;
+    [SerializeField] private float startVolume;
 
     private void Awake()
     {
@@ -28,7 +29,7 @@ public class SoundEffectManager : MonoBehaviour
     public static void Play(string soundName)
     {
         AudioClip audioClip = soundEffectLibrary.GetRandomClip(soundName);
-        if(audioClip != null)
+        if (audioClip != null)
         {
             audioSource.PlayOneShot(audioClip);
         }
@@ -37,7 +38,9 @@ public class SoundEffectManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sfxSlider.onValueChanged.AddListener(delegate { OnValueChanged(); });
+        SetVolume(startVolume);
+
+        sfxSlider.onValueChanged.AddListener(SetVolume);
     }
 
     public static void SetVolume(float volume)

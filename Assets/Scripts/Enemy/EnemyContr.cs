@@ -43,7 +43,7 @@ public class EnemyContr : MonoBehaviour
 
         if(position.y < minY) // Check if the enemy has moved below the camera view
         {
-            if (scoreUITextGo.GetComponent<GameScore>().Score>0)
+            if (scoreUITextGo.GetComponent<GameScore>().Score > 0)
             {
                 scoreUITextGo.GetComponent<GameScore>().Score -= 100;
             }

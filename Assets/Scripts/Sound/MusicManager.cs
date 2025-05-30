@@ -9,6 +9,7 @@ public class MusicManager : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip backgroundMusic;
     [SerializeField] private Slider musicSlider;
+    [SerializeField] private float startVolume;
 
     private void Awake()
     {
@@ -31,7 +32,9 @@ public class MusicManager : MonoBehaviour
             PlayBackgroundMusic(false, backgroundMusic);
         }
 
-        musicSlider.onValueChanged.AddListener(delegate { SetVolume(musicSlider.value); });
+        SetVolume(startVolume);
+
+        musicSlider.onValueChanged.AddListener(SetVolume);
     }
 
     public static void SetVolume(float volume)
@@ -41,13 +44,13 @@ public class MusicManager : MonoBehaviour
 
     public void PlayBackgroundMusic(bool resetSong, AudioClip audioClip = null)
     {
-        if(audioSource != null)
+        if (audioSource != null)
         {
             audioSource.clip = audioClip;
-        } 
-        if(audioSource.clip != null)
+        }
+        if (audioSource.clip != null)
         {
-            if(resetSong)
+            if (resetSong)
             {
                 audioSource.Stop();
             }
@@ -59,5 +62,8 @@ public class MusicManager : MonoBehaviour
     {
         audioSource.Pause();
     }
-
+    public void OnValueChanged()
+    {
+        SetVolume(musicSlider.value);
+    }
 }
