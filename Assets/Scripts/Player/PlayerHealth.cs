@@ -100,7 +100,14 @@ public class PlayerHealth : MonoBehaviour
     {
         gameObject.tag = "PlayerWithShield";
         shield.SetActive(true);
-        yield return new WaitForSeconds(shieldDuration);
+        yield return new WaitForSeconds(shieldDuration - 1);
+        for (double i = 0; i < 2; i+=0.4)
+        {
+            shield.GetComponent<SpriteRenderer>().enabled = false;
+            yield return new WaitForSeconds(0.2f);
+            shield.GetComponent<SpriteRenderer>().enabled = true;
+            yield return new WaitForSeconds(0.2f);
+        }
         shield.SetActive(false);
         gameObject.tag = "PlayerShipTag";
     }
