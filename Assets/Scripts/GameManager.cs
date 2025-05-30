@@ -56,16 +56,19 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0;
         pauseScreen.SetActive(true);
+        TimeCounterGO.GetComponent<TimeCounter>().StopTimeCounter();
     }
     public void ResumeGame()
     {
         Time.timeScale = 1;
         options.SetActive(false);
         pauseScreen.SetActive(false);
+        TimeCounterGO.GetComponent<TimeCounter>().ResumeTimeCounter();
     }
 
     public void ShowGameOver()
     {
+        TimeCounterGO.GetComponent<TimeCounter>().StopTimeCounter();
         gameOverScreen.SetActive(true);
     }
 

@@ -1,50 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using TMPro; // Use this for TextMeshPro
 
 public class TimeCounter : MonoBehaviour
 {
-    Text timeUI;
+    TextMeshProUGUI timeUI;
 
-    float startTime; // Time when the game starts
-    float ellapsedTime; // Time elapsed since the game started
-    bool startCounter; // Flag to check if the game is running
+    float startTime;
+    float ellapsedTime;
+    bool startCounter;
 
-    int minutes; // Minutes elapsed
-    int seconds; // Seconds elapsed
+    int minutes;
+    int seconds;
 
-    // Start is called before the first frame update
     void Start()
     {
-        startCounter = false; // Start the counter
+        StartTimeCounter();
 
-        timeUI = GetComponent<Text>(); // Get the Text component for displaying time
+        timeUI = GetComponent<TextMeshProUGUI>();
     }
 
     public void StartTimeCounter()
     {
-        startTime = Time.time; // Record the start time
-        startCounter = true; // Set the flag to true to start counting
+        startTime = Time.time;
+        startCounter = true;
+    }
+
+    public void ResumeTimeCounter()
+    {
+        startCounter = true;
     }
 
     public void StopTimeCounter()
     {
-        startCounter = false; // Set the flag to false to stop counting
+        startCounter = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (startCounter)
         {
-            ellapsedTime = Time.time - startTime; // Calculate elapsed time
-            minutes = (int)ellapsedTime / 60; // Calculate minutes
-            seconds = (int)ellapsedTime % 60; // Calculate seconds
+            ellapsedTime = Time.time - startTime;
+            minutes = (int)ellapsedTime / 60;
+            seconds = (int)ellapsedTime % 60;
 
-            // Format the time as MM:SS and update the UI
-            timeUI.text = string.Format("{00:00}:{01:00}", minutes, seconds);
-        }    
-        
+            timeUI.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        }
     }
 }
