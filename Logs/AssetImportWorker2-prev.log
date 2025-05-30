@@ -1,0 +1,648 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'uk' Physical Memory: 24283 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\Editor\2022.3.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Space-microgame/Space-microgame
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60999
+Successfully changed project path to: D:/Space-microgame/Space-microgame
+D:/Space-microgame/Space-microgame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27092]  Target information:
+
+Player connection [27092]  * "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 3329429845 [EditorId] 3329429845 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BRNFHF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27092] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27092] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 9.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path D:/UnityHub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Space-microgame/Space-microgame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7262
+Initialize mono
+Mono path[0] = 'D:/UnityHub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityHub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002604 seconds.
+- Loaded All Assemblies, in  0.400 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 697ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.691 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1346ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (457ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (655ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (486ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 4533.
+Memory consumption went from 144.8 MB to 144.8 MB.
+Total: 4.228200 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.218300 ms MarkObjects: 3.565800 ms  DeleteObjects: 0.185800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74070.827386 seconds.
+  path: Assets/Prefabs/Nairan - Frigate -  Destruction_0.prefab
+  artifactKey: Guid(79698afb81344034e98d08482b6d2f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nairan - Frigate -  Destruction_0.prefab using Guid(79698afb81344034e98d08482b6d2f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a98c483c23136cf6d79b82c1c151883') in 0.189422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/Asteroid.prefab
+  artifactKey: Guid(5422d46d760a21748acce10b1053e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Asteroid.prefab using Guid(5422d46d760a21748acce10b1053e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aafc23f43903206a66b3550f6618077b') in 0.051152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 57.042702 seconds.
+  path: Assets/GameEngine.scenetemplate
+  artifactKey: Guid(682c0e5720ea6ff4c96989d78661f553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameEngine.scenetemplate using Guid(682c0e5720ea6ff4c96989d78661f553) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c8a7c28f43aef83eca6964165d3e9fd7') in 0.119553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 277
+========================================================================
+Received Import Request.
+  Time since last request: 0.392494 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(387746d83fddf044181c96cc5d2fd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(387746d83fddf044181c96cc5d2fd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e92a08843e4f23267ecbd453af85ba57') in 0.000662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.573176 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c2c66019d0250ad46852abe8443b91c') in 0.000836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.964148 seconds.
+  path: Assets/Scenes/GameEngine.unity
+  artifactKey: Guid(3081fcf224b80bc4bb544c0cd43de63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameEngine.unity using Guid(3081fcf224b80bc4bb544c0cd43de63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e1467dfd0024d2b8bf8b34ba9b88159') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.584 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 1113ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (237ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (528ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (32.2 KB). Loaded Objects now: 4548.
+Memory consumption went from 144.0 MB to 144.0 MB.
+Total: 4.006700 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.275400 ms MarkObjects: 3.353800 ms  DeleteObjects: 0.064000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.792162 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/forceField_001.ogg
+  artifactKey: Guid(16d71b7caf5b1694ba8e270dbd8e24e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/forceField_001.ogg using Guid(16d71b7caf5b1694ba8e270dbd8e24e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ae5536aec2c0cef077726ae0f8f0897') in 0.128617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/laserRetro_001.ogg
+  artifactKey: Guid(15dc52bf282149744b9d3859b497fc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/laserRetro_001.ogg using Guid(15dc52bf282149744b9d3859b497fc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b8aa3e20ac4cb5722e88057a574ac6f') in 0.023846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngine_000.ogg
+  artifactKey: Guid(fd3d791af2c370648b6c8095e04182bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngine_000.ogg using Guid(fd3d791af2c370648b6c8095e04182bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ba40215ae6fb8c920fc980aecfdea2a4') in 0.027105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/lowFrequency_explosion_001.ogg
+  artifactKey: Guid(6935a82ec342c704f936cee7441f9a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/lowFrequency_explosion_001.ogg using Guid(6935a82ec342c704f936cee7441f9a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15c5f985968328f3fe0e8a83deeed183') in 0.026979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/laserRetro_002.ogg
+  artifactKey: Guid(2866411adb960234badb0d06f7eed604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/laserRetro_002.ogg using Guid(2866411adb960234badb0d06f7eed604) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0644274888b894ebaaa151e82ec3e578') in 0.022046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/forceField_003.ogg
+  artifactKey: Guid(424d2b0bab884e9408a4819959f8b2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/forceField_003.ogg using Guid(424d2b0bab884e9408a4819959f8b2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b00d64e1281ac7e1ac2e46d3018a7450') in 0.021725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/laserSmall_003.ogg
+  artifactKey: Guid(4b038d24d8117924784675e5528ffc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/laserSmall_003.ogg using Guid(4b038d24d8117924784675e5528ffc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8fbb5c6ce32ec0afe0480886fc4819a6') in 0.024160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngine_002.ogg
+  artifactKey: Guid(2007adbca32fee0419a148ad964f36d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngine_002.ogg using Guid(2007adbca32fee0419a148ad964f36d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcce0c56502b57c75a134a1ae5ee9817') in 0.022933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/slime_000.ogg
+  artifactKey: Guid(1f34b9b4484ebb249bd21b27761e688d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/slime_000.ogg using Guid(1f34b9b4484ebb249bd21b27761e688d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7445c7cfeb1f36fb84cbd174f5ca2c0b') in 0.022196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/laserLarge_001.ogg
+  artifactKey: Guid(08eb3bb7fd2601047acbdb4b10553e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/laserLarge_001.ogg using Guid(08eb3bb7fd2601047acbdb4b10553e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '219c60c03dfd14b994d902fe409ee66e') in 0.019279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/laserRetro_004.ogg
+  artifactKey: Guid(d1941bdb1b4ac374c8db4308d706c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/laserRetro_004.ogg using Guid(d1941bdb1b4ac374c8db4308d706c4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ba1400b944839809d269a2bac659f53') in 0.018426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/impactMetal_002.ogg
+  artifactKey: Guid(3a89abcc578bc8f4395041609515c0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/impactMetal_002.ogg using Guid(3a89abcc578bc8f4395041609515c0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88c4fa97a6498bd532a02883ad65ada2') in 0.021147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/laserLarge_004.ogg
+  artifactKey: Guid(6d6753baa45486944a2cfe7b87bf972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/laserLarge_004.ogg using Guid(6d6753baa45486944a2cfe7b87bf972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0d3dc993fd2e80844f6121547c82370e') in 0.020204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/impactMetal_004.ogg
+  artifactKey: Guid(660ee547892079e4692f1cd36d08991a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/impactMetal_004.ogg using Guid(660ee547892079e4692f1cd36d08991a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53bf15c87681f1e7d59d3033cfd70dfd') in 0.021910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/laserSmall_000.ogg
+  artifactKey: Guid(f39a9c8ad2ff53048b94148d309a4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/laserSmall_000.ogg using Guid(f39a9c8ad2ff53048b94148d309a4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fe73558b7e5bf57423d2c739888e39b') in 0.020806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/slime_001.ogg
+  artifactKey: Guid(9742e431f8cba7e4dbb07e5ba8222f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/slime_001.ogg using Guid(9742e431f8cba7e4dbb07e5ba8222f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8735872bbf61c8763d92fe3411faa52') in 0.022940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngine_003.ogg
+  artifactKey: Guid(eb4797d30da8ec845aa8ea9894dfb75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngine_003.ogg using Guid(eb4797d30da8ec845aa8ea9894dfb75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '57595e259736e50c46cf6835e6585885') in 0.023549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.653667 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLarge_002.ogg
+  artifactKey: Guid(f736906c7dd1e914ca8a93f873ebc149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLarge_002.ogg using Guid(f736906c7dd1e914ca8a93f873ebc149) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7b1822d73e7bafaa544fffb7fc217a1') in 0.020910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineSmall_002.ogg
+  artifactKey: Guid(0b94989847db606499deebf85876f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineSmall_002.ogg using Guid(0b94989847db606499deebf85876f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a47a52a1da53e67d4ee827d3c6c0af87') in 0.017733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLow_000.ogg
+  artifactKey: Guid(e3eda6d7c663fab4ba6e98c7884187db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLow_000.ogg using Guid(e3eda6d7c663fab4ba6e98c7884187db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '59b38e2f086befeed6b82803c98c205e') in 0.018696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLow_001.ogg
+  artifactKey: Guid(12c3c0c5f04ffea40844235ad7360b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLow_001.ogg using Guid(12c3c0c5f04ffea40844235ad7360b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '87a5e87dab973aaa3b00d1066598c262') in 0.020467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLarge_004.ogg
+  artifactKey: Guid(c7f147acf60be264c823e60d098bf79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineLarge_004.ogg using Guid(c7f147acf60be264c823e60d098bf79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4f51b101a62434e71c6b269e56e27db') in 0.019493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineSmall_001.ogg
+  artifactKey: Guid(67b07fbe9cb382b46abb3f945dd57d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineSmall_001.ogg using Guid(67b07fbe9cb382b46abb3f945dd57d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b690a173f0203ea03ee10f2e421ecbfd') in 0.018783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.070718 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/engineCircular_001.ogg
+  artifactKey: Guid(03676d8e73601264293ff673022864cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/engineCircular_001.ogg using Guid(03676d8e73601264293ff673022864cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12e5ababf0bf6f1adf6ae97c44780c37') in 0.050433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/explosionCrunch_004.ogg
+  artifactKey: Guid(3011aa75c5b38bf40930d91b3d6d8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/explosionCrunch_004.ogg using Guid(3011aa75c5b38bf40930d91b3d6d8405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79b41eba5329ba197c162414ef72dedb') in 0.024115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/engineCircular_004.ogg
+  artifactKey: Guid(9507173c7240b5b43bf437238863258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/engineCircular_004.ogg using Guid(9507173c7240b5b43bf437238863258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '985d4cdd5e25bcb783bae586ac27e5a3') in 0.023357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/explosionCrunch_003.ogg
+  artifactKey: Guid(37f6a877f2ef59144a59b2dc78e47644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/explosionCrunch_003.ogg using Guid(37f6a877f2ef59144a59b2dc78e47644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd20ad231306c0dde4cda42fdfd3bfc7e') in 0.023284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/forceField_000.ogg
+  artifactKey: Guid(c623c738699793843bec57605774d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/forceField_000.ogg using Guid(c623c738699793843bec57605774d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6e4c97c4df0a8ccaab3f59b13ffa599a') in 0.023699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.543421 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/computerNoise_001.ogg
+  artifactKey: Guid(0d82089e8f4c4074bb53556afcb2bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/computerNoise_001.ogg using Guid(0d82089e8f4c4074bb53556afcb2bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1aaa60c5926aa1f6f4d88a051f3d6428') in 0.034313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/doorOpen_000.ogg
+  artifactKey: Guid(6d677ba3245b65b4097afecfa757eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/doorOpen_000.ogg using Guid(6d677ba3245b65b4097afecfa757eb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd02b3dbd6cdb0f230394ec7fa0365260') in 0.025475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/doorClose_002.ogg
+  artifactKey: Guid(7df435cc1580ca147846af7b7ff36f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/doorClose_002.ogg using Guid(7df435cc1580ca147846af7b7ff36f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '25bbb921cf0d48f6b92c18193aa1364d') in 0.021402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 79.480389 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineSmall_004.ogg
+  artifactKey: Guid(59df9aa3a5e73fb45b87937835ac18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/spaceEngineSmall_004.ogg using Guid(59df9aa3a5e73fb45b87937835ac18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0ac023705bb425d3e128a87acf218f1') in 0.031673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/thrusterFire_003.ogg
+  artifactKey: Guid(11de7c4c600f8be4ab142249559eb65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/thrusterFire_003.ogg using Guid(11de7c4c600f8be4ab142249559eb65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd91eaa1f0b9e6476cacf67415e14f76b') in 0.028004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sound/kenney_sci-fi-sounds/Audio/thrusterFire_004.ogg
+  artifactKey: Guid(ca35394049cd7454a9d84a2ce8286a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/kenney_sci-fi-sounds/Audio/thrusterFire_004.ogg using Guid(ca35394049cd7454a9d84a2ce8286a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '379c9440bf9b4d27a2c7150f985ebd85') in 0.024223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -36,6 +36,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     private IEnumerator FastFireRoutine()
     {
+        SoundEffectManager.Play("ShieldAndGun");
         fireRate *= 2;
         FastFireGun.SetActive(true);
         yield return new WaitForSeconds(fastDuration - 1);

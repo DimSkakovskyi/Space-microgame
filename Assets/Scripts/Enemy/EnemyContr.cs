@@ -18,6 +18,9 @@ public class EnemyContr : MonoBehaviour
 
     public float speed; // Speed of the enemy movement
 
+    public bool isAsteroid;
+    public bool isScout;
+
     public bool isCruise;
     public GameObject shield;
 
@@ -73,6 +76,7 @@ public class EnemyContr : MonoBehaviour
 
             if(isCruise == true && maxHealth == halfHealth)
             {
+                SoundEffectManager.Play("ShieldEnd");
                 shield.GetComponent<SpriteRenderer>().enabled = false;
             }
 
@@ -116,6 +120,18 @@ public class EnemyContr : MonoBehaviour
 
     void PlayDeath()
     {
+        if (isCruise)
+        {
+            SoundEffectManager.Play("ExplosionC");
+        }
+        else if (isAsteroid)
+        {
+            SoundEffectManager.Play("Explosion");
+        }
+        else if(isScout)
+        {
+            SoundEffectManager.Play("Death");
+        }
         GameObject death = (GameObject)Instantiate(Death);
 
         death.transform.position = transform.position; // Set the position of the explosion effect to the enemy's position

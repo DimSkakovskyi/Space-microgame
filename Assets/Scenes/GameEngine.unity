@@ -1279,7 +1279,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6974709273719707551, guid: 1b7c6683007b330408857292bda41aea, type: 3}
+  m_Sprite: {fileID: 5700586647645380214, guid: 1d520bf74685ebb439edfbc86dacdbd4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1287,7 +1287,7 @@ SpriteRenderer:
   m_Size: {x: 0.24, y: 0.17}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &269127062
@@ -3204,7 +3204,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.5
+  m_Value: 0.3
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3470,7 +3470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundMusic: {fileID: 8300000, guid: da537bbe6b9ebe24faa2ec8a4c1efc17, type: 3}
   musicSlider: {fileID: 866204247}
-  startVolume: 0.7
+  startVolume: 0.3
 --- !u!4 &900217047
 Transform:
   m_ObjectHideFlags: 0
@@ -5519,7 +5519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxSlider: {fileID: 1269299721}
-  startVolume: 0.5
+  startVolume: 0.4
 --- !u!114 &1463590709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5536,7 +5536,6 @@ MonoBehaviour:
   - name: Piu
     audioClips:
     - {fileID: 8300000, guid: 448c2f9a21aac654598acfdf91cbacd9, type: 3}
-    - {fileID: 8300000, guid: 3682a2725b02ebd41b8adb12f88ec001, type: 3}
     - {fileID: 8300000, guid: 48119911166f7114b9e8f74ae65ac8a2, type: 3}
     - {fileID: 8300000, guid: 4b038d24d8117924784675e5528ffc67, type: 3}
   - name: Explosion
@@ -5544,8 +5543,26 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 7429d46d02b7bc34881326bc79ea0872, type: 3}
   - name: Death
     audioClips:
-    - {fileID: 8300000, guid: 5ae5462ece280df4d8457811e8f4c47a, type: 3}
     - {fileID: 8300000, guid: 82700512a320af945b8da1ccd46a2e4c, type: 3}
+    - {fileID: 8300000, guid: 660ee547892079e4692f1cd36d08991a, type: 3}
+  - name: ExplosionC
+    audioClips:
+    - {fileID: 8300000, guid: f786670781d0ad94abe4631e21f44f44, type: 3}
+  - name: ShieldEnd
+    audioClips:
+    - {fileID: 8300000, guid: 16d71b7caf5b1694ba8e270dbd8e24e5, type: 3}
+    - {fileID: 8300000, guid: 424d2b0bab884e9408a4819959f8b2d2, type: 3}
+  - name: GameOver
+    audioClips:
+    - {fileID: 8300000, guid: d48f719ff08485e40befac5328e237b4, type: 3}
+  - name: Heal
+    audioClips:
+    - {fileID: 8300000, guid: 4ddb50af9eefe0149be0095ded956a4c, type: 3}
+    - {fileID: 8300000, guid: 5d1b89f95baa3c149b16deb7f748b083, type: 3}
+    - {fileID: 8300000, guid: 3ef2c79f05e617445a5317f936864718, type: 3}
+  - name: ShieldAndGun
+    audioClips:
+    - {fileID: 8300000, guid: 4a09ec86ce8d5c54b967db7c480cab1b, type: 3}
 --- !u!4 &1463590710
 Transform:
   m_ObjectHideFlags: 0

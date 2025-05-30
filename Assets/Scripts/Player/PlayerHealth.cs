@@ -60,6 +60,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Heal(int amount)
     {
+        SoundEffectManager.Play("Heal");
         currentHealth += amount;
         if (currentHealth > maxHealth)
         {
@@ -98,6 +99,7 @@ public class PlayerHealth : MonoBehaviour
 
     private IEnumerator ShieldRoutine()
     {
+        SoundEffectManager.Play("ShieldAndGun");
         gameObject.tag = "PlayerWithShield";
         shield.SetActive(true);
         yield return new WaitForSeconds(shieldDuration - 1);
@@ -114,6 +116,9 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
+        SoundEffectManager.Play("Explosion");
+        MusicManager.instance.PauseBackgroundMusic();
+        SoundEffectManager.Play("GameOver");
         GameObject death = (GameObject)Instantiate(dead);
 
         death.transform.position = transform.position; // Set the position of the explosion to the player's position

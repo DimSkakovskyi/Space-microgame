@@ -4935,6 +4935,10 @@ MonoBehaviour:
   maxHealth: 5
   minY: -6
   speed: 3
+  isAsteroid: 1
+  isScout: 0
+  isCruise: 0
+  shield: {fileID: 0}
   lootTable:
   - itemPrefab: {fileID: 3395305893905816370, guid: 80545f894cef2aa46aed08724a06a724, type: 3}
     dropChance: 2
