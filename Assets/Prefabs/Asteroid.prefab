@@ -4932,9 +4932,9 @@ MonoBehaviour:
   Death: {fileID: 5801276329852191125, guid: defdcbdc987fb734ebba4f76a4bb33fc, type: 3}
   value: 10
   damage: 1
-  maxHealth: 5
+  maxHealth: 4
   minY: -6
-  speed: 3
+  speed: 2
   isAsteroid: 1
   isScout: 0
   isCruise: 0

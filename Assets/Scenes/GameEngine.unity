@@ -4318,7 +4318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scout: {fileID: 8438697195705373517, guid: 5422d46d760a21748acce10b1053e3d9, type: 3}
   spawnRate: 10
-  minSpawnRate: 0.2
+  minSpawnRate: 0.5
   spawnMinX: -6.5
   spawnMaxX: 6.5
   spawnMaxY: 6.5
@@ -6275,8 +6275,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scout: {fileID: 9056766236071751072, guid: c6a10cdaef61e2443ae58d8f47263565, type: 3}
-  spawnRate: 20
-  minSpawnRate: 4
+  spawnRate: 30
+  minSpawnRate: 10
   spawnMinX: -6.5
   spawnMaxX: 6.5
   spawnMaxY: 7.5
@@ -6873,8 +6873,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scout: {fileID: 622109959080675688, guid: eba4f6412b7513540bdbff49aa501d79, type: 3}
-  spawnRate: 5
-  minSpawnRate: 0.2
+  spawnRate: 7
+  minSpawnRate: 1
   spawnMinX: -6.5
   spawnMaxX: 6.5
   spawnMaxY: 6.5
